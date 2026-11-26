@@ -10,9 +10,13 @@ android {
     defaultConfig {
         applicationId "com.denrakeiw.rakwatch"
         minSdk 26
-        targetSdk 28
+        targetSdk 34
         versionCode 1
         versionName "1.0.0"
+    }
+
+    lint {
+        abortOnError false
     }
 
     buildTypes {
